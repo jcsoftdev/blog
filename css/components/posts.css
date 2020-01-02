@@ -125,7 +125,7 @@ object{
     font-size: 1.5rem;
   }
   .categories .categories__navigation a {
-    font-size: 1rem;
+    font-size: .75rem;
   }
   .post__footer img{
     width: 1.3rem;
