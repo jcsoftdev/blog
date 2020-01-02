@@ -14,6 +14,7 @@ body.nav-open {
   background: var(--linear-bg);
   color: #ffffff;
   height: var(--header-height);
+  box-shadow: 0 0 20px 0 #000;
 
   position: fixed;
   top: 0;

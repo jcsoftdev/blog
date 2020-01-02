@@ -11,7 +11,6 @@
 .categories .categories__title {
   text-align: center;
   font-size: 3.5rem;
-  font-family: "Oswald", sans-serif;
   background: var(--linear-bg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -28,8 +27,7 @@
   opacity: 1;
   text-decoration: none;
   font-size: .5rem;
-  font-weight: bold;
-  font-family: "Oxygen";
+  font-weight: var(--bold-font);
   color: var(--title-color);
   text-transform: uppercase;
 
@@ -112,10 +110,7 @@ object{
   margin-right: .5rem;
 }
 .categories__button{
-  font-size: 1.2rem;
   margin: 1rem;
-  padding: 1.25rem 2.5rem;
-  font-family: 'Nunito';
 }
 .categories__button::after{
   margin: 0;
