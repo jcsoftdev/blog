@@ -116,6 +116,8 @@ object{
   margin: 0;
   border: 0;
 }
+/* slides */
+
 
 /* Responsive */
 @media screen and (min-width: 480px) {

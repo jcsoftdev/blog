@@ -6,7 +6,8 @@
   /* BG COLORS */
   --body-bg: #f1f5f8;
   --linear-bg: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-
+  --linear-bg-center: linear-gradient(to right bottom, #db464f, #da3b65, #d3377b, #c63a91, #b243a6, #a741b1, #9842bc, #8544c7, #8039cf, #792ed6, #7120de, #670ae6);
+  --card-bg: #a05acd;
   /* TEXT COLORS */
   --title-color: #2e3687;
   --text-color: #5b7395;
