@@ -4,6 +4,7 @@
 @import './base/utils.css';
 
 /* Components */
+@import './components/buttons.css';
 @import './components/header.css';
 @import './components/posts.css';
 
