@@ -1,0 +1,17 @@
+:root {
+  /* COLORS */
+  --primary-color: #db464f;
+  --secondary-color: #670ae6;
+  
+  /* BG COLORS */
+  --body-bg: #f1f5f8;
+  --linear-bg: linear-gradient(var(--primary-color), var(--secondary-color));
+
+  /* TEXT COLORS */
+  --title-color: #2e3687;
+  --text-color: #5b7395;
+
+  /* FONTS */
+  --title-font: 'Passion One', cursive;
+  --body-font: 'Roboto', sans-serif;
+}
