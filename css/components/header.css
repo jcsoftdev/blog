@@ -1,9 +1,14 @@
 .header {
-  --navbar-top: 6rem;
-  --navbar: 6rem;
+  --header-height: 9rem;
+  --navbar-top: 4rem;
+  --navbar: 5rem;
   background: var(--linear-bg);
   color: #ffffff;
   height: var(--header-height);
+
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 /* NAVBAR TOP */
@@ -49,8 +54,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  position: relative;
 }
 
 .navbar .navbar__logo {
@@ -109,8 +112,8 @@
   background-color: #fff;
   position: absolute;
   top: 100%;
-  right: -1rem;
-  transform: translateX(calc(100vw + 1rem));
+  right: 0;
+  transform: translateX(100vw);
   width: 100vw;
   height: calc(100vh - var(--header-height));
   transition: all .5s ease-in-out;
