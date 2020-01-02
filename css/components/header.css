@@ -1,16 +1,21 @@
+body {
+  --header-height: 9rem;
+  --navbar-top: 4rem;
+  --navbar: 5rem;
+
+  margin-top: var(--header-height);
+}
+
 body.nav-open {
   overflow-y: hidden;
 }
 
 .header {
-  --header-height: 9rem;
-  --navbar-top: 4rem;
-  --navbar: 5rem;
   background: var(--linear-bg);
   color: #ffffff;
   height: var(--header-height);
 
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -119,6 +124,7 @@ body.nav-open {
 .nav {
   --link-size: 2rem;
   
+  z-index: var(--z-nav);
   opacity: 0;
   background: #fff;
   position: absolute;

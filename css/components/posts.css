@@ -6,17 +6,8 @@
   --color-blue: #2e3586;
   --color-dark: #5b7395;
 }
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-body {
-  background-color: #f2f2f2;
-}
-.container {
-  max-width: 85vw;
+
+.categories-container {
   display: flex;
   align-items: center;
   justify-content: center;
