@@ -8,6 +8,7 @@ body {
   margin: 0;
   background: var(--body-bg);
   font-family: var(--body-font);
+  overflow-x: hidden;
 }
 
 h1,
@@ -17,4 +18,24 @@ h4,
 h5,
 h6 {
   font-family: var(--title-font);
+  color: var(--title-color);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: currentColor;
+}
+
+svg {
+  fill: currentColor;
 }

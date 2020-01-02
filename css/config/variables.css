@@ -5,7 +5,7 @@
   
   /* BG COLORS */
   --body-bg: #f1f5f8;
-  --linear-bg: linear-gradient(var(--primary-color), var(--secondary-color));
+  --linear-bg: linear-gradient(to right, var(--primary-color), var(--secondary-color));
 
   /* TEXT COLORS */
   --title-color: #2e3687;
@@ -14,4 +14,6 @@
   /* FONTS */
   --title-font: 'Passion One', cursive;
   --body-font: 'Roboto', sans-serif;
+
+  --header-height: 12rem;
 }
