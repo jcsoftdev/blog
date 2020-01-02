@@ -9,7 +9,7 @@
   background-position: center;
   color: #fff;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: var(--bold-font);
 
   transition: all .3s;
 }

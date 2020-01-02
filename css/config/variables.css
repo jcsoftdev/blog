@@ -12,12 +12,12 @@
   --text-color: #5b7395;
 
   /* FONTS */
-  --title-font: 'Passion One', cursive;
-  --body-font: 'Roboto', sans-serif;
+  --title-font: 'Oswald', sans-serif;
+  --body-font: 'Nunito', sans-serif;
 
   /* WEIGHT */
   --light-font: 300;
-  --bolt-font: 700;
+  --bold-font: 700;
 
   /* BREAKPOINTS */
   --medium: 768px;
