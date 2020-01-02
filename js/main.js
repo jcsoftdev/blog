@@ -5,4 +5,5 @@ const hamburguer = document.querySelector('.navbar__hamburguer')
 
 hamburguer.addEventListener('click', () => {
   navbar.classList.toggle('show')
+  document.body.classList.toggle('nav-open')
 })
