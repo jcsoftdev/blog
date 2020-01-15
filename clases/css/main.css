@@ -1,0 +1,378 @@
+.container {
+    /* width: 60%; */
+    padding: 10px 15%;
+    /* padding: 0 100px; */
+}
+
+header {
+    background: linear-gradient(to right bottom, #db464f, #da3b65, #d3377b, #c63a91, #b243a6, #a741b1, #9842bc, #8544c7, #8039cf, #792ed6, #7120de, #670ae6);
+}
+
+/*--------- NAVBAR-TOP ---------*/
+
+.navbar-top {
+    padding-top: 15px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.time {
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-bar {
+    margin-top: 15px;
+}
+
+.social-bar__list {
+    list-style: none;
+}
+
+.social-bar__link svg {
+    width: 2rem;
+    fill: white;
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.social-bar__link svg:hover {
+    opacity: 1.1;
+}
+
+.social-bar__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------- NAVBAR ---------*/
+
+.social-bar__item {
+    margin-right: 10px;
+}
+
+.social-bar__item:last-child {
+    margin-right: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid white;
+    margin-top: 10px;
+    padding: 15px 0px 25px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5em;
+}
+
+.logo span {
+    background-color: white;
+    color: #ed4264;
+    padding: 0 3px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.menu-bar-hamburguer svg {
+    width: 2.8rem;
+    fill: white;
+}
+
+.menu-bar {
+    display: none;
+}
+
+.menu-bar__list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-bar__item {
+    margin-right: 10px;
+}
+
+.menu-bar__item:last-child {
+    margin-right: 0;
+}
+
+.menu-bar__item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    transition: all 0.3s;
+}
+
+.menu-bar__item a:hover {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+/*--------- HERO ---------*/
+.hero {
+    background-image: url("../img/svg/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1,p {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero p {
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.hero h1 {
+    color: white;
+    text-align: center;
+    font-size: 12vw;
+    margin: 0;
+    opacity: 0.6;
+    position: absolute;
+    left: 10%;
+    top: 0;
+}
+
+.hero-container {
+    padding: 10px;
+    position: relative;
+}
+
+/*--------- BROWSING CATEGORY ---------*/
+.categories {
+    background-color: #f1f5f8;
+}
+
+.categories__title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    padding: 35px;
+    font-weight: bolder;
+    background: linear-gradient(90deg, #dc2424 0%,#4a569d 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.categories__nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.categories__nav a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.08em;
+    text-decoration: none;
+    margin-right: 10px;
+    color: #7642ed;
+    text-transform: uppercase;
+}
+
+.categories__nav a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.categories__nav a:last-child {
+    margin-right: 0;
+    text-align: center;
+}
+
+/*--------- POSTS ---------*/
+.posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.post {
+    max-width: 100%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 35px;
+    background-color: white;
+}
+
+.post img {
+    max-width: 100%;
+    border-radius: 35px;
+}
+
+.post h3 {
+    text-align: center;
+    color: #43498d;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    margin: 15px 0;
+}
+
+.post p {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.posts__button {
+    background: linear-gradient(90deg, #667eea 0%,#764ba2 100% );
+    color: white;
+    font-size: 1.3em;
+    border: none;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    transition: all 0.3s;
+}
+
+.posts__button:hover {
+    background: linear-gradient(90deg, #48c6ef 0%,#6f86d6 100% );
+}
+
+/*--------- TOP DESTINATIONS ---------*/
+.top-destinations {
+    background: linear-gradient(to right bottom, #db464f, #da3b65, #d3377b, #c63a91, #b243a6, #a741b1, #9842bc, #8544c7, #8039cf, #792ed6, #7120de, #670ae6);
+}
+
+.top-destinations__title {
+    margin: 0;
+    color: white;
+    padding: 35px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.destinations {
+    margin: 0 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.destination {
+    max-width: 100%;
+    margin-right: 20px;
+    background-color: #5d537a;
+    border-radius: 35px;
+    margin-bottom: 20px;
+}
+
+.destination:last-child {
+    margin-right: 0;
+}
+
+.destination img {
+    max-width: 100%;
+    border-radius: 35px;
+}
+
+.destination__text h3 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*--------- QUERYS ---------*/
+@media only screen and (min-width: 1048px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 3px solid white;
+        margin-top: 10px;
+        padding: 15px 0px 25px 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .menu-bar-hamburguer {
+        display: none;
+    }
+
+    .menu-bar {
+        display: block
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .post {
+        max-width: 40%;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 35px;
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width: 690px) {
+    .navbar-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        text-align: left;
+    }
+
+    .social-bar__list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destination {
+        max-width: 30%;
+    }
+
+    .destinations {
+        margin: 0 30px;
+    }
+    /* .categories__nav a {
+        font-size: 0.9em;
+    } */
+}
+
+@media only screen and (min-width: 401px) {
+    .categories__nav a {
+        font-size: 1.2rem;
+    }
+
+    .categories__title {
+        font-size: 3.5em;
+    }
+    
+}
